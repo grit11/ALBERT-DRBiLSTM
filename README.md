@@ -1,13 +1,13 @@
 # ALBERT-DRBiLSTM
 
-Minimal runnable code for fake review detection with `ALBERT + DRBiLSTM + AENSF`.
+Project code for fake review detection with `ALBERT + DRBiLSTM + AENSF`.
 
 ## Included Files
 
 - `main.py`: training and evaluation entry
 - `model/model_albert_bilstm.py`: main model
 - `model/model_component.py`: DRBiLSTM and metadata attention components
-- `requirements.txt`: minimal dependencies
+- `requirements.txt`: project dependencies
 
 ## Data Format
 
@@ -48,7 +48,5 @@ python main.py \
 
 ## Notes
 
-- The released minimal version does not include data preprocessing scripts.
-- The released main pipeline does not use data augmentation.
+- Data preprocessing scripts are not included in this repository snapshot.
 - Outputs such as `best_model.pth`, `run_config.json`, and evaluation results will be saved to `outputs/`.
-
